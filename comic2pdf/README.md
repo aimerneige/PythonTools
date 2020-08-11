@@ -6,7 +6,7 @@ This tool can convert your comic pictures to PDF.
 
 ## Requirement
 
-- You must have `Python` installed.
+- `Python`
 - `Pillow`
 
 ## Usage
