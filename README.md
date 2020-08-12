@@ -12,6 +12,10 @@ If you want to use my code, just do what the fu*k you want to. If you want, give
 
 Convert your comic pictures to PDF.
 
+### [youtube-dl helper](https://github.com/aimerneige/PythonTools/tree/master/youtube-dl-helper)
+
+Help you generate youtube-dl command quickly.
+
 ## Install & Requirement
 
 Read the `README` on each tool folder.
