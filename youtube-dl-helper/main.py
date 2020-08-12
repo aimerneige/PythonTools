@@ -3,6 +3,8 @@
 # github:   https://www.github.com/AimerNeige
 # site:     https://AimerNeige.com
 
+import subprocess
+
 DOWNLOAD_LINK = [
     'URL_1',
     'URL_2',
@@ -121,8 +123,14 @@ else:
 
 command = command + links
 
+
+save_into_file = input("Save command into file command.txt on current path? (Y/n)")
+if save_into_file == 'Y':
+    with open('command.txt', 'w') as f:
+        f.write(command)
+
 print(command)
 
-
-# https://ostechnix.com/youtube-dl-tutorial-with-examples-for-beginners/#:~:text=It%20is%20not%20just%20to,source%20program%20written%20in%20Python.
-
+run_command = input('Run the youtube-dl now? (Y/n)')
+if run_command == 'Y':
+    subprocess.call(command)
