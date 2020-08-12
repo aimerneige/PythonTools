@@ -66,6 +66,8 @@ SPEED_LIMIT_VALUE = '50K'
 
 RESUME_DOWNLOAD = False
 
+SAVE_COMMAND_TO_FILE = False
+
 # config end
 
 command = 'youtube-dl'
@@ -121,9 +123,7 @@ else:
 
 command = command + links
 
-
-save_into_file = input("Save command into file command.txt on current path? (Y/n)")
-if save_into_file == 'Y':
+if SAVE_COMMAND_TO_FILE:
     with open('command.txt', 'w') as f:
         f.write(command)
 
