@@ -3,8 +3,6 @@
 # github:   https://www.github.com/AimerNeige
 # site:     https://AimerNeige.com
 
-import subprocess
-
 DOWNLOAD_LINK = [
     'URL_1',
     'URL_2',
@@ -130,7 +128,3 @@ if save_into_file == 'Y':
         f.write(command)
 
 print(command)
-
-run_command = input('Run the youtube-dl now? (Y/n)')
-if run_command == 'Y':
-    subprocess.call(command)
