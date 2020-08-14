@@ -1,6 +1,0 @@
-[submodule "comic2pdf"]
-	path = comic2pdf
-	url = https://github.com/AimerNeige/comic2pdf
-[submodule "youtube-dl-helper"]
-	path = youtube-dl-helper
-	url = https://github.com/AimerNeige/youtube-dl-helper
